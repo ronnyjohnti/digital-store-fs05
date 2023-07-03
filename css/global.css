@@ -128,13 +128,13 @@ header {
 	padding-top: 42px;
 }
 
-#logo {
+.logo {
 	display: flex;
 		align-items: center;
 		gap: 10px;
 }
 
-#logo .digital-college {
+.logo .digital-college {
 	color: var(--primary);
 	width: max-content;
 	font-size: 36.4px;
@@ -244,5 +244,45 @@ header {
 }
 
 footer {
-	
+	background-color: var(--dark-gray);
+	color: var(--white);
+	display: flex;
+		flex-wrap: wrap;
+	padding-inline: 100px;
+	padding-top: 72px;
+	font-size: 16px;
+}
+
+footer .footer-column {
+	width: 25%;
+}
+
+.footer-column .logo {
+	font-size: 37px;
+	font-weight: 600;
+	letter-spacing: -0.364px;
+}
+.footer-column .logo img {
+	fill: white;
+}
+
+.footer-column>h6 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 39px;
+}
+
+.footer-column>div {
+	display: flex;
+		flex-direction: column;
+		gap: 22px;
+}
+
+footer>p {
+	border-top: 1px inset var(--white);
+	width: 100%;
+	padding-block: 23px;
+	margin-top: 34px;
+	text-align: center;
+	font-size: 13px;
 }
