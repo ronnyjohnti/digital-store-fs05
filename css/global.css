@@ -248,22 +248,24 @@ footer {
 	color: var(--white);
 	display: flex;
 		flex-wrap: wrap;
+		justify-content: space-between;
 	padding-inline: 100px;
 	padding-top: 72px;
-	font-size: 16px;
 }
 
-footer .footer-column {
+#footer-col-1, #footer-col-4 {
 	width: 25%;
 }
 
-.footer-column .logo {
+#footer-col-1 .logo {
 	font-size: 37px;
 	font-weight: 600;
 	letter-spacing: -0.364px;
 }
-.footer-column .logo img {
-	fill: white;
+
+
+#footer-col-1 p {
+	margin-block: 35px 40px;
 }
 
 .footer-column>h6 {
@@ -276,6 +278,8 @@ footer .footer-column {
 	display: flex;
 		flex-direction: column;
 		gap: 22px;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 footer>p {
